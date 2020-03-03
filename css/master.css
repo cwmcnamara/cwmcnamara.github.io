@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+header,
+article img,
+article section,
+iframe {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+button {
+  border: none;
+  padding: 20px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.article-title {
+  margin: 0;
+}
+
+.header-top {
+  padding-left: 15px; padding-right: 15px;
+  align-items: center;
+}
+
+.nav-item {
+  text-align: center;
+ padding: 15px;
+ flex-grow: 1;
+ cursor: pointer;
+}
+
+
+.about-img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 50%;
+}
+
+.avatar {
+  max-width: 85%;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+.progress-set {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 15px;
+  padding-top: 0;
+}
+
+.frontend {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.type-list {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.type-list button {
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: inherit;
+  border: none;
+}
+
+article section {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  border: 1px solid white;
+  transition: height 2s;
+  height: 0px;
+}
+
+.active {
+  height: 400px;
+  padding-left: 15px;
+}
+
+.web-display-case {
+  display: block;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+article p {
+  text-indent: 35px;
+}
+
+article {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+aside {
+  margin-top: 15px;
+  padding-left: 10px; padding-right: 10px;
+
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+  height: 700px;
+  border: none;
+}
+
+article div {
+  display: flex;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  padding: 15px;
+  width: -webkit-fill-available;
+}

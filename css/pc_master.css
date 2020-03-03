@@ -1,0 +1,33 @@
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  flex-flow: column nowrap;
+  width: 20%;
+  height: 100%;
+}
+
+nav {
+  flex-flow: column nowrap;
+}
+
+.nav-item {
+  padding: 30px;
+}
+
+.avatar {
+  width: 25%;
+  margin: 0;
+}
+
+main, footer {
+  margin-left: 20%;
+}
+
+footer {
+  z-index: 10;
+}
+
+.article-title {
+  text-align: center;
+}
