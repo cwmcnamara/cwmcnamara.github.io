@@ -38,6 +38,12 @@ h2 {
   font-size: 20pt;
 }
 
+@media only screen and (max-width: 768px) {
+  section h1 {
+    font-size: 30pt;
+  }
+}
+
 /*
 Base Colors
 <Black: #000000;

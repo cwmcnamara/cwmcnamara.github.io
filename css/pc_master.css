@@ -32,6 +32,12 @@ main {
   justify-content: center;
 }
 
+iframe {
+  height: 550px;
+}
+
+
+
 main, footer {
   margin-left: 20%;
 }
