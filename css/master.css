@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0;
+  width: 100%;
 }
 
 header,
@@ -11,11 +12,6 @@ article img,
 article section,
 iframe {
   width: 100%;
-}
-
-header {
-  display: flex;
-  flex-flow: row nowrap;
 }
 
 button {
@@ -107,10 +103,11 @@ nav {
   justify-content: space-around;
 }
 
+header h1 {
+  margin: 0;
+}
+
 main {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
   padding: 10px;
 }
 
@@ -137,7 +134,9 @@ iframe {
 }
 
 article div {
+  width: 100%;
   display: flex;
+  flex-flow: column;
 }
 
 footer {
