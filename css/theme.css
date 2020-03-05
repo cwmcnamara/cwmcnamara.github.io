@@ -26,7 +26,7 @@ p, button {
   font-size: 15pt;
 }
 
-h1, button {
+h1, button, h1 span {
   font-family: 'Permanent Marker';
   text-align: center;
 }
@@ -38,12 +38,40 @@ h2 {
   font-size: 20pt;
 }
 
+.web-button:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.7s;
+}
+
+.w-active {
+color: green;
+animation: blink 2s infinite;
+}
+
+.w-inactive {
+color: red;
+}
+
+@keyframes blink {
+  0% {color: green}
+  50% {color: transparent}
+  100% {color: green}
+}
+
 @media only screen and (max-width: 768px) {
   section h1 {
-    font-size: 30pt;
+    font-size: 30pt
   }
 }
 
+@media only screen and (min-width: 768px) {
+  @media only screen and (max-width: 935px) {
+    header span {
+      font-size: 19pt
+    }
+  }
+}
 /*
 Base Colors
 <Black: #000000;

@@ -26,6 +26,10 @@ nav {
   margin: 0;
 }
 
+.button-group {
+  flex-flow: row;
+}
+
 main {
   display: flex;
   flex-flow: column wrap;
@@ -36,7 +40,11 @@ iframe {
   height: 550px;
 }
 
-
+@media only screen and (max-height: 480px) {
+  header {
+    overflow-y: auto;
+  }
+}
 
 main, footer {
   margin-left: 20%;
@@ -48,4 +56,13 @@ footer {
 
 .article-title {
   text-align: center;
+}
+
+.active {
+  height: 600px;
+}
+
+.button-group-horizontal {
+  flex-flow: row;
+  justify-content: center;
 }

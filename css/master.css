@@ -1,4 +1,4 @@
-html {
+html, article section, article aside {
   scroll-behavior: smooth;
 }
 
@@ -10,7 +10,7 @@ body {
 header,
 article img,
 article section,
-iframe {
+iframe, article aside {
   width: 100%;
 }
 
@@ -80,16 +80,16 @@ button:hover {
   border: none;
 }
 
-article section {
+article section, article aside {
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-y: auto;
   border: 1px solid white;
   transition: height 2s;
   height: 0px;
 }
 
 .active {
-  height: 400px;
+  height: 425px;
   padding-left: 15px;
 }
 
@@ -123,7 +123,24 @@ article {
 aside {
   margin-top: 15px;
   padding-left: 10px; padding-right: 10px;
+}
 
+.web-button {
+  border: 3px solid white;
+  padding: 8px;
+  border-radius: 18px;
+  margin: 5px;
+  margin-top: 10px;
+  text-align: center;
+  min-width: 125.438px;
+}
+
+section div {
+  display: block !important;
+}
+
+.web-display-case h2 {
+  margin-bottom: 0;
 }
 
 iframe {
