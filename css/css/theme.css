@@ -1,0 +1,113 @@
+/*Font
+Subheadings*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+/*Base Text*/
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+/*Headings*/
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+/*Links*/
+@import url(https://fonts.googleapis.com/css?family=Odibee+Sans);
+
+* {
+  font-family: 'Lato';
+  text-decoration: none;
+}
+
+a {
+  font-family: 'Odibee Sans';
+  font-size: 18pt;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed';
+}
+
+p, button {
+  font-size: 15pt;
+}
+
+h1, button, h1 span {
+  font-family: 'Permanent Marker';
+  text-align: center;
+}
+article h1 {
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+.web-button:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.7s;
+}
+
+.w-active {
+color: green;
+animation: blink 2s infinite;
+}
+
+.w-inactive {
+color: red;
+}
+
+@keyframes blink {
+  0% {color: green}
+  50% {color: transparent}
+  100% {color: green}
+}
+
+@media only screen and (max-width: 768px) {
+  section h1 {
+    font-size: 30pt
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  @media only screen and (max-width: 935px) {
+    header span {
+      font-size: 19pt
+    }
+  }
+}
+/*
+Base Colors
+<Black: #000000;
+Dark Gray Matte: #292828;
+Gray Matte: #5d5c5c;
+Light Blue Matte: #4baccc;
+White Matte: #ffffff;>
+
+Hover Colors
+<Gray Matte:hover: #3e3e3e;
+Light Blue Matte:hover: #067da5;>
+*/
+* {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+footer, .header-top {
+  background-color: #292828;
+}
+
+header, article button {
+  background-color: #5d5c5c;
+}
+
+header a:hover, article button:hover {
+  background-color: #3e3e3e;
+}
+
+header a:last-child {
+  background-color: #4baccc;
+}
+
+header a:last-child:hover {
+  background-color: #067da5;
+}

@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  flex-flow: column nowrap;
+  width: 20%;
+  height: 100%;
+}
+
+header h1 {
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+nav {
+  flex-flow: column nowrap;
+}
+
+.nav-item {
+  padding: 30px;
+}
+
+.avatar {
+  width: 25%;
+  margin: 0;
+}
+
+.button-group {
+  flex-flow: row;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+iframe {
+  height: 550px;
+}
+
+@media only screen and (max-height: 480px) {
+  header {
+    overflow-y: auto;
+  }
+}
+
+main, footer {
+  margin-left: 20%;
+}
+
+footer {
+  z-index: 10;
+}
+
+.article-title {
+  text-align: center;
+}
+
+.active {
+  height: 600px;
+}
+
+.button-group-horizontal {
+  flex-flow: row;
+  justify-content: center;
+}
