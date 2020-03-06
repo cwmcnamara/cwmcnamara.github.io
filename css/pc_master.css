@@ -27,13 +27,7 @@ nav {
 }
 
 .button-group {
-  flex-flow: row;
-}
-
-main {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
+  flex-flow: row wrap;
 }
 
 iframe {
@@ -63,6 +57,6 @@ footer {
 }
 
 .button-group-horizontal {
-  flex-flow: row;
+  flex-flow: row wrap;
   justify-content: center;
 }

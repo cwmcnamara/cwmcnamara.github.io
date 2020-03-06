@@ -143,6 +143,10 @@ section div {
   margin-bottom: 0;
 }
 
+.webmark {
+  display: block;
+}
+
 iframe {
   margin: 0 auto;
   display: block;
